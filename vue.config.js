@@ -78,6 +78,7 @@ module.exports = {
             config.plugins = [...config.plugins, ...plugins];
         } else {
             // config.devtool = 'cheap-module-eval-source-map';
+            // config.devtool = '#eval-source-map';
         }
     },
     chainWebpack: (config) => {
